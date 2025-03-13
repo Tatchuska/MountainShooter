@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import random
-from random import Random
 
 from code.Background import Background
 from code.Const import WIN_WIDTH, WIN_HEIGHT
@@ -13,7 +12,7 @@ class EntityFactory:
 
 
     @staticmethod
-    def get_entity(entity_name: str, position=(0,0)):
+    def get_entity(entity_name: str):
         match entity_name:
             case 'Level1Bg':
                 list_bg = []

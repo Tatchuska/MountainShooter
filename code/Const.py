@@ -117,7 +117,6 @@ MENU_OPTION = ('NEW GAME 1P',
                'EXIT')
 
 # P
-
 PLAYER_KEY_UP = {'Player1': pygame.K_UP,
                  'Player2': pygame.K_w}
 PLAYER_KEY_DOWN = {'Player1': pygame.K_DOWN,
@@ -130,11 +129,10 @@ PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
                     'Player2': pygame.K_LCTRL}
 
 # S
-
 SPAWN_TIME = 4000
 
 # T
-TIMEOUT_LEVEL = 10000 # 20s
+TIMEOUT_LEVEL = 20000 # 20s
 TIMEOUT_STEP = 100 # 100ms
 
 # W

@@ -14,9 +14,10 @@ class Menu:
         self.surf = pygame.image.load('./asset/MenuBg.png')
         self.rect = self.surf.get_rect(left=0, top=0)
 
-    def run(self, ):
+    def run(self):
         menu_option = 0
         pygame.mixer_music.load('./asset/Menu.mp3')
+        pygame.mixer_music.set_volume(0.1)
         pygame.mixer_music.play(-1)
         while True:
             # DRAW IMAGES
